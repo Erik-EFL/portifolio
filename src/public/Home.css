@@ -1,0 +1,80 @@
+.home {
+  background-color: rgb(31, 31, 31);
+  height: 100vh;
+  color: #ffffffcb;
+}
+
+.header {
+  margin-bottom: 150px;
+}
+
+.home main {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.home .home-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.home img {
+  border-radius: 50%;
+}
+
+.home .circle {
+  border-radius: 0  100% 100%;
+  background-color: #ffffffcb;
+  margin-right: 20px;
+}
+
+.circle_Container {
+  position: relative;
+}
+
+.circle2 {
+  position: absolute;
+  top: -22px;
+  left: -33px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #ffd001bd;
+  margin-left: 20px;
+}
+
+span{
+  position: relative;
+  z-index: 10;
+  color: rgb(0, 0, 0);
+}
+
+.info_City {
+  margin-left: 230px;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+
+}
