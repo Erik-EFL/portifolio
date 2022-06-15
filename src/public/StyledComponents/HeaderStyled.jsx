@@ -1,5 +1,5 @@
 import Styled from 'styled-components';
-import palets from './Palets.jsx';
+import palets from './Theme/Palets.jsx';
 
 const HeaderStyled = Styled.header`
   padding: 28px;
